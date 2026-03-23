@@ -81,7 +81,7 @@ def ejecutar_sistema():
                     print(f"🟢 APROVECHABLE ({conf.item()*100:.1f}%)")
                     print("⚙️  MOTOR: Girando a +90° (Apertura Derecha)")
                 else:
-                    print(f"🔴 NO APROVECHABLE ({confianza.item()*100:.1f}%)")
+                    print(f"🔴 NO APROVECHABLE ({conf.item()*100:.1f}%)")
                     print("⚙️  MOTOR: Girando a -90° (Apertura Izquierda)")
                 print("="*50)
 
