@@ -86,8 +86,8 @@ void loop() {
 
       if (httpCode > 0) {
         String resp = http.getString();
-        if (resp == "1") { miServo.write(160); delay(3000); } 
-        else if (resp == "2") { miServo.write(20); delay(3000); }
+        if (resp == "1") { miServo.write(130); delay(3000); } 
+        else if (resp == "2") { miServo.write(50); delay(3000); }
         miServo.write(90);
       }
       http.end();
